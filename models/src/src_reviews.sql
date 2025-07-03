@@ -2,8 +2,7 @@ WITH all_reviews AS (
     SELECT
         *
     FROM
-    AIRBNB.RAW.RAW_REVIEWS
-)
+{{ source('airbnb', 'RAW_REVIEWS') }})
 SELECT
     listing_id,
     date AS review_date,
