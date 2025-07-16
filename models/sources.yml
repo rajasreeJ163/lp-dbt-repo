@@ -4,7 +4,9 @@ sources:
   - name: airbnb
     schema: RAW
     tables:
-      - name: RAW_LISTING
+      - name: RAW_LISTINGS
       - name: RAW_HOSTS
       - name: RAW_REVIEWS
+      - name: RAW_CUSTOMER
+      - name: sales_us
  
